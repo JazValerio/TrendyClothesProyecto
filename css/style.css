@@ -1,0 +1,329 @@
+body {
+    margin: 50px 30px 50px 30px;
+    background-color: rgb(255, 244, 197);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ffecad;
+    background-color: #fceec0;
+    background-image: url("data:image/svg+xml,%3Csvg width='64' height='64' viewBox='0 0 64 64' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 16c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zm33.414-6l5.95-5.95L45.95.636 40 6.586 34.05.636 32.636 2.05 38.586 8l-5.95 5.95 1.414 1.414L40 9.414l5.95 5.95 1.414-1.414L41.414 8zM40 48c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm0-2c3.314 0 6-2.686 6-6s-2.686-6-6-6-6 2.686-6 6 2.686 6 6 6zM9.414 40l5.95-5.95-1.414-1.414L8 38.586l-5.95-5.95L.636 34.05 6.586 40l-5.95 5.95 1.414 1.414L8 41.414l5.95 5.95 1.414-1.414L9.414 40z' fill='%2350370c' fill-opacity='0.07' fill-rule='evenodd'/%3E%3C/svg%3E");
+    background-attachment: fixed;
+}
+/*
+.index{
+
+}
+.titulos h1,h2,h3{
+
+}
+
+*/
+header.index {
+    color: rgb(165, 95, 4);
+    
+    width: 900px;
+    margin: 0 auto;
+    nav {
+        text-align: center;
+        padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+        color: rgb(90, 43, 5);
+        
+    }
+
+    h2 {
+        text-align: center; 
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 50px;
+        padding: 10px;
+        
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+        color: rgb(90, 43, 5);
+        padding-top: 1;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+}
+
+header.pages {
+    padding-top: 20px;
+    width: 1000px;
+    margin: 0 auto;
+    nav {
+        text-align: center;
+
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 60px;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 40px;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 50px;
+    }
+
+    p {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 1;
+    }
+
+}
+
+/*secciones y tablas*/
+
+p.table {
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+
+}
+
+h2.table {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+
+h3.table {
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+
+img.table {
+    width: 75%;
+    border-radius: 0%;
+    display: block;
+    margin: 0% auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.girl {
+    border-radius: 10%;
+    color: rgb(223, 44, 12);
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgb(250, 208, 180);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tablegirl {
+    margin: 0% auto;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 35px;
+
+    th {
+        background-color: rgb(240, 178, 150);
+        color: rgb(223, 44, 12);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    tfoot {
+
+        font-size: 20px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+}
+
+.boy {
+    border-radius: 10%;
+    color: rgb(13, 5, 121);
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgb(180, 208, 250);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tableBoy {
+    margin: 0% auto;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 35px;
+
+    th {
+        background-color: rgb(131, 162, 247);
+        color: rgb(13, 5, 121);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    tfoot {
+
+        font-size: 20px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+}
+
+.woman {
+    border-radius: 10%;
+    color: rgb(165, 95, 4);
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgb(250, 220, 180);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tableWoman {
+    margin: 0% auto;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 35px;
+
+    th {
+        background-color: rgb(250, 204, 145);
+        color: rgb(165, 95, 4);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    tfoot {
+
+        font-size: 20px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+}
+
+.men {
+    border-radius: 10%;
+    color: rgb(3, 85, 7);
+    width: 950px;
+    margin: 0 auto;
+    background-color: rgb(158, 211, 165);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tableMen {
+
+    margin: 0% auto;
+    text-align: center;
+    width: 75%;
+    padding-bottom: 35px;
+
+    th {
+        background-color: rgb(110, 158, 95);
+        color: rgb(3, 85, 7);
+        font-size: 20px;
+        padding-top: 10px;
+        padding-bottom: 15px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+    tfoot {
+
+        font-size: 20px;
+        text-align: center;
+        border-collapse: collapse;
+    }
+
+}
+
+.contactos{
+    text-align: center;
+    color: rgb(90, 43, 5);
+    font-size: 15px;
+}
+.redes{
+    text-align: center;
+    color: rgb(90, 43, 5);
+    font-size: 15px;
+}
+.info{
+    text-align: center;
+    color: rgb(90, 43, 5);
+    font-size: 15px;
+}
+
+.foot {
+    background-color: rgb(250, 220, 180);
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    justify-content: space-around;
+}
+
+.contF{
+    display: flex;
+    padding-right: 5px;
+}
+
+/*para las otras paginas*/
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-radius: 10%;
+    
+}
+
+.card{
+    width: 500px;
+    border-radius: 10%;
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(90, 43, 5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pHgirl{
+    padding-left: 20px;
+    color: rgb(223, 44, 12);
+}
+.pHboy{
+    padding-left: 20px;
+    color: rgb(13, 5, 121);
+}
+
+.pHwoman{
+    padding-left: 20px;
+    color: rgb(165, 95, 4);
+}
+
+.pHmen{
+    padding-left: 20px;
+    color: rgb(3, 85, 7);
+}
+
+.hover-image:hover {
+    transform: scale(1.1); 
+    opacity: 0.8; 
+}
